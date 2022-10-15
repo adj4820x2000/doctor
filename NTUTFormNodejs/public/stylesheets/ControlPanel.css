@@ -1,0 +1,60 @@
+   table {
+        width: 100%;
+    }
+    
+    table,
+    th,
+    td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    
+    th,
+    td {
+        padding: 5px;
+        text-align: left;
+    }
+    
+    table tr:nth-child(even) {
+        background-color: #eee;
+    }
+    
+    table tr:nth-child(odd) {
+        background-color: #fff;
+    }
+    
+    table th {
+        background-color: black;
+        color: white;
+    }
+    
+    body {
+        font-family: "微軟正黑體";
+        padding-top: 50px;
+    }
+    
+    .Small-Width {
+        width: 140px;
+    }
+    
+    .btn-primary:active,
+    .btn-primary.active,
+    .open > .dropdown-toggle.btn-primary {
+        color: #fff;
+        background-color: brown;
+        border-color: brown;
+    }
+    
+    .btn-primary:active:hover,
+    .btn-primary.active:hover,
+    .open > .dropdown-toggle.btn-primary:hover,
+    .btn-primary:active:focus,
+    .btn-primary.active:focus,
+    .open > .dropdown-toggle.btn-primary:focus,
+    .btn-primary:active.focus,
+    .btn-primary.active.focus,
+    .open > .dropdown-toggle.btn-primary.focus {
+        color: #fff;
+        background-color: brown;
+        border-color: brown;
+    }
